@@ -1,0 +1,98 @@
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+  <title>Currency Converter</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Currency Converter</h1>
+    <div class="form-group">
+      <label for="amount">Amount:</label>
+      <input type="number" class="form-control" id="amount" min="0" step="0.01">
+    </div>
+    <div class="form-group">
+      <label for="fromCurrency">From Currency:</label>
+      <select class="form-control" id="fromCurrency">
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+        <option value="GBP">GBP</option>
+        <option value="GBP">INR</option>
+        <option value="GBP">KWD</option>
+        <option value="GBP">BHD</option>
+        <option value="GBP">OMR</option>
+        <option value="GBP">JOD</option>
+        <option value="GBP">GIP</option>
+        <option value="GBP">KYD</option>
+        <option value="GBP">CHF</option>
+        <option value="GBP">EUR</option>
+        <option value="GBP">JPY</option>
+        <option value="GBP">UA</option>
+        <option value="GBP">BEF</option>
+        <option value="GBP">ECU</option>
+        <option value="GBP">CAD</option>
+        <option value="GBP">DKK</option>
+        <option value="GBP">FIM</option>
+        <option value="GBP">FRF</option>
+        <option value="GBP">DEM</option>
+        <option value="GBP">IQD</option>
+        <option value="GBP">ITL</option>
+        <option value="GBP">JPY</option>
+        <option value="GBP">KPW</option>
+        <option value="GBP">KRW</option>
+        <option value="GBP">XEU</option>
+        <option value="GBP">KWD</option>
+        <option value="GBP">LUF</option>
+        <option value="GBP">NLG</option>
+        <option value="GBP">NOK</option>
+        <option value="GBP">PTE</option>
+        <option value="GBP">SAR</option>
+        <option value="GBP">CHF</option>
+        
+      </select>
+    </div>
+    <div class="form-group">
+      <label for="toCurrency">To Currency:</label>
+      <select class="form-control" id="toCurrency">
+        <option value="USD">USD</option>
+        <option value="EUR">EUR</option>
+        <option value="GBP">GBP</option>
+        <option value="GBP">INR</option>
+        <option value="GBP">KWD</option>
+        <option value="GBP">BHD</option>
+        <option value="GBP">OMR</option>
+        <option value="GBP">JOD</option>
+        <option value="GBP">GIP</option>
+        <option value="GBP">KYD</option>
+        <option value="GBP">CHF</option>
+        <option value="GBP">EUR</option>
+        <option value="GBP">JPY</option>
+        <option value="GBP">UA</option>
+        <option value="GBP">BEF</option>
+        <option value="GBP">ECU</option>
+        <option value="GBP">CAD</option>
+        <option value="GBP">DKK</option>
+        <option value="GBP">FIM</option>
+        <option value="GBP">FRF</option>
+        <option value="GBP">DEM</option>
+        <option value="GBP">IQD</option>
+        <option value="GBP">ITL</option>
+        <option value="GBP">JPY</option>
+        <option value="GBP">KPW</option>
+        <option value="GBP">KRW</option>
+        <option value="GBP">XEU</option>
+        <option value="GBP">KWD</option>
+        <option value="GBP">LUF</option>
+        <option value="GBP">NLG</option>
+        <option value="GBP">NOK</option>
+        <option value="GBP">PTE</option>
+        <option value="GBP">SAR</option>
+        <option value="GBP">CHF</option>
+      </select>
+    </div>
+    <button id="convertBtn" class="btn btn-primary">Convert</button>
+    <div id="result"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
